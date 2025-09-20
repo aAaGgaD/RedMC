@@ -5,8 +5,6 @@ Plugin infrastructure for Minecraft servers in the Vanilla Survival Multiplayer 
 ![Folia 1.21.8](https://img.shields.io/badge/Folia-1.21.8-yellow.svg)
 ![License: AGPL-3.0](https://img.shields.io/badge/License-AGPL--3.0-green.svg)
 
----
-
 ## Features
 
 - API
@@ -19,22 +17,16 @@ Plugin infrastructure for Minecraft servers in the Vanilla Survival Multiplayer 
   - Weights
   - Inheritance
 
----
-
 ## Installation
 
 Step-by-step instructions to install the plugin:
-1. Download the latest release from the [Releases](#) page
+1. Download the latest release from the [Releases](https://github.com/RitzAtemo/RedMC/releases/) page
 2. Place the `.jar` files into your server's `plugins` folder
 3. Restart the server
-
----
 
 ## Configuration
 
 All plugin settings are configured in their respective `config.yml` files. Messages can be customized in the corresponding `lang` folders, named according to the language (e.g., `en_US.yml`), which are automatically used based on the client’s language.
-
----
 
 ## Build
 This project uses **Gradle** as its build system. To build all plugins, run:
@@ -47,8 +39,6 @@ This will compile the source code, run the necessary tasks, and produce `.jar` f
 
 > If you are using Windows, use `gradlew.bat build` instead of `./gradlew build`.
 
----
-
 ## Test
 To debug the plugins with Folia, use:
 
@@ -57,7 +47,6 @@ To debug the plugins with Folia, use:
 ```
 
 This will start a local Folia server instance with your plugins loaded, allowing you to test features in a real server environment.
-
 
 > Tip: You can modify the run configuration in `build.gradle` if you want to change server version or plugin paths.
 
