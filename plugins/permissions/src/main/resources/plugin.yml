@@ -1,0 +1,46 @@
+name: RedMC-Permissions
+description: RedMC - Permissions
+version: 1.0
+api-version: '1.21.8'
+author: RitzAtemo
+authors: [RitzAtemo]
+contributors: [AviorAtemo]
+website: https://aviora.red
+prefix: RedMC
+folia-supported: true
+main: com.aviora.redmc.permissions.PermissionsPlugin
+depend: [RedMC-API]
+commands:
+  permissions:
+    aliases: [perm, pm]
+permissions:
+  redmc.perm:
+    default: op
+  redmc.perm.group.list:
+    default: op
+  redmc.perm.group.add:
+    default: op
+  redmc.perm.group.remove:
+    default: op
+  redmc.perm.group.edit.name:
+    default: op
+  redmc.perm.group.perms.list:
+    default: op
+  redmc.perm.group.perms.add:
+    default: op
+  redmc.perm.group.perms.remove:
+    default: op
+  redmc.perm.player.perms.list:
+    default: op
+  redmc.perm.player.perms.add:
+    default: op
+  redmc.perm.player.perms.remove:
+    default: op
+  redmc.perm.player.groups.list:
+    default: op
+  redmc.perm.player.groups.add:
+    default: op
+  redmc.perm.player.groups.remove:
+    default: op
+  redmc.perm.reload:
+    default: op
