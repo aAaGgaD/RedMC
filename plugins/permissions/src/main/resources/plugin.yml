@@ -10,9 +10,6 @@ prefix: RedMC
 folia-supported: true
 main: com.aviora.redmc.permissions.PermissionsPlugin
 depend: [RedMC-API]
-commands:
-  permissions:
-    aliases: [perm, pm]
 permissions:
   redmc.perm:
     default: op
@@ -44,3 +41,7 @@ permissions:
     default: op
   redmc.perm.reload:
     default: op
+commands:
+  permissions:
+    aliases: [ perm, pm ]
+    permission: redmc.perm
