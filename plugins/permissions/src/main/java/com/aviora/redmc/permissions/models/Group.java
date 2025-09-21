@@ -34,9 +34,7 @@ public class Group {
         permissions.add(entry);
     }
 
-    public void removePermission(int index) {
-        if (index >= 0 && index < permissions.size()) {
-            permissions.remove(index);
-        }
+    public void removePermission(String permission) {
+	    permissions.removeIf(entry -> entry.getName().equalsIgnoreCase(permission));
     }
 }

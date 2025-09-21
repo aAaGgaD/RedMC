@@ -114,6 +114,7 @@ public class PermissionManager {
     public void reapplyAll() {
         for (Player player : Bukkit.getOnlinePlayers()) {
             applyPermissions(player);
+			player.updateCommands();
         }
     }
 }

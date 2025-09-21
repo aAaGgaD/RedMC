@@ -1,0 +1,49 @@
+name: RedMC-Permissions
+description: RedMC - Permissions
+version: '1.0'
+api-version: '1.21.8'
+author: RitzAtemo
+authors: [RitzAtemo]
+contributors: [AviorAtemo]
+website: https://aviora.red
+prefix: RedMC
+folia-supported: true
+main: com.aviora.redmc.permissions.PermissionsPlugin
+bootstrapper: com.aviora.redmc.permissions.PermissionsBootstrap
+dependencies:
+  server:
+    RedMC-API:
+      load: BEFORE
+      required: true
+      join-classpath: true
+permissions:
+  redmc.permissions:
+    default: op
+  redmc.permissions.group.create:
+    default: op
+  redmc.permissions.group.read:
+    default: op
+  redmc.permissions.group.update.name:
+    default: op
+  redmc.permissions.group.update.permissions.read:
+    default: op
+  redmc.permissions.group.update.permissions.create:
+    default: op
+  redmc.permissions.group.update.permissions.delete:
+    default: op
+  redmc.permissions.group.delete:
+    default: op
+  redmc.permissions.player.permissions.read:
+    default: op
+  redmc.permissions.player.permissions.create:
+    default: op
+  redmc.permissions.player.permissions.delete:
+    default: op
+  redmc.permissions.player.groups.read:
+    default: op
+  redmc.permissions.player.groups.create:
+    default: op
+  redmc.permissions.player.groups.delete:
+    default: op
+  redmc.permissions.reload:
+    default: op

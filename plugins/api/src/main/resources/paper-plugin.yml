@@ -1,0 +1,20 @@
+name: RedMC-API
+description: RedMC - API
+version: '1.0'
+api-version: '1.21.8'
+author: RitzAtemo
+authors: [RitzAtemo]
+contributors: [AviorAtemo]
+website: https://aviora.red
+prefix: RedMC
+folia-supported: true
+main: com.aviora.redmc.api.ApiPlugin
+load: STARTUP
+depend:
+  - ProtocolLib
+dependencies:
+  bootstrap:
+    ProtocolLib:
+      load: BEFORE
+      required: true
+      join-classpath: true
