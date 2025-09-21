@@ -8,7 +8,7 @@ contributors: [AviorAtemo]
 website: https://aviora.red
 prefix: RedMC
 folia-supported: true
-main: com.aviora.redmc.api.ApiPlugin
+main: red.aviora.redmc.api.ApiPlugin
 load: STARTUP
 depend:
   - ProtocolLib

@@ -1,56 +1,11 @@
 prefix: "<#1E90FF>[<#FF1493>Permissions<#1E90FF>]<#F0F8FF> "
 
-# ───── General Responses ─────
-success: "%prefix%<#3DDC97>Operation completed successfully."
-no-permission: "%prefix%<#FF4D6D>You do not have permission to execute this command."
-unknown-subcommand: "%prefix%<#FF4D6D>Unknown subcommand: <#9b94a6>%subcommand%"
-missing-arguments: "%prefix%<#FF4D6D>Missing required arguments."
-invalid-args: "%prefix%<#FF4D6D>Invalid arguments. Usage: <#9b94a6>%usage%"
-invalid-boolean: "%prefix%<#FF4D6D>Expected <#9b94a6>true <#FF4D6D>or <#9b94a6>false<#FF4D6D>."
-invalid-int: "%prefix%<#FF4D6D>Expected a number, received: <#9b94a6>%input%"
+success: "%prefix%<#3DDC97>Operation completed successfully!"
 already-exists: "%prefix%<#FF4D6D>Element <#9b94a6>%name% <#FF4D6D>already exists."
-
-# ───── Reload Messages ─────
-reload-config: "%prefix%<#3DDC97>Configuration reloaded successfully."
-reload-db: "%prefix%<#3DDC97>Data structure reloaded successfully."
-reload-all: "%prefix%<#3DDC97>Plugin fully reloaded."
+not-found: "%prefix%<#FF4D6D>Element <#9b94a6>%name% <#FF4D6D>not found."
 ensure-default-group: "%prefix%<#FFB800>Default group not found. A new default group has been created."
-
-# ───── Group Management ─────
-group-not-found: "%prefix%<#FF4D6D>Group with ID <#9b94a6>%group% <#FF4D6D>not found."
-group-added: "%prefix%<#3DDC97>Group <#9b94a6>%group% <#3DDC97>created."
-group-removed: "%prefix%<#3DDC97>Group <#9b94a6>%group% <#3DDC97>removed."
-group-name-updated: "%prefix%<#3DDC97>Group name updated to <#9b94a6>%name%."
-
-group-list-empty: "%prefix%<#FF4D6D>No groups found."
-group-list-title: "%prefix%<#9b94a6>Groups:"
-group-list-item: "<#FFB800>- <#9b94a6>ID: <#F0F8FF>%id% <#9b94a6>| Name: <#F0F8FF>%name%"
-
-# ───── Group Permissions ─────
-group-has-no-perms: "%prefix%<#9b94a6>Group <#F0F8FF>%group% <#9b94a6>has no permissions."
-group-perms-list: "%prefix%<#9b94a6>Permissions of group <#F0F8FF>%group%:"
-group-perms-empty: "%prefix%<#FF4D6D>Group <#F0F8FF>%group% <#FF4D6D>has no permissions."
-group-perms-title: "%prefix%<#9b94a6>Permissions for group <#F0F8FF>%group%:"
-group-perms-item: "<#FFB800>%index%<#9b94a6>) <#F0F8FF>%perm% <#9b94a6>[allowed: %allowed%, weight: %weight%]"
-group-perms-delete-error: "%prefix%<#FF4D6D>Permission with index <#9b94a6>%index% <#FF4D6D>does not exist."
-
-# ───── Player Management ─────
-player-not-found: "%prefix%<#FF4D6D>Player <#9b94a6>%player% <#FF4D6D>not found."
-player-group-added: "%prefix%<#3DDC97>Group <#9b94a6>%group% <#3DDC97>added to player <#9b94a6>%player%."
-player-group-removed: "%prefix%<#3DDC97>Group <#9b94a6>%group% <#3DDC97>removed from player <#9b94a6>%player%."
-player-group-not-assign: "%prefix%<#FF4D6D>Group <#9b94a6>%group% <#FF4D6D>is not assigned to the player."
-player-group-list-empty: "%prefix%<#FF4D6D>Player <#F0F8FF>%player% <#FF4D6D>is not in any group."
-player-group-list-title: "%prefix%<#9b94a6>Groups of player <#F0F8FF>%player%:"
-player-group-list-item: "<#FFB800>- <#9b94a6>ID: <#F0F8FF>%id% <#9b94a6>| Name: <#F0F8FF>%name%"
-
-# ───── Player Permissions ─────
-player-perm-added: "%prefix%<#3DDC97>Permission <#9b94a6>%perm% <#3DDC97>added to player <#9b94a6>%player%."
-player-perm-removed: "%prefix%<#3DDC97>Permission <#9b94a6>%perm% <#3DDC97>removed from player <#9b94a6>%player%."
-player-perms-is-empty: "%prefix%<#FF4D6D>Player <#F0F8FF>%player% <#FF4D6D>has no personal permissions."
-player-perms-title: "%prefix%<#9b94a6>Permissions of player <#F0F8FF>%player%:"
-player-perms-item: "<#FFB800>%index%<#9b94a6>) <#F0F8FF>%perm% <#9b94a6>[allowed: %allowed%, weight: %weight%]"
-player-perms-delete-error: "%prefix%<#FF4D6D>Permission with index <#9b94a6>%index% <#FF4D6D>does not exist."
-
-# ───── Generic Permissions ─────
-permission-added: "%prefix%<#3DDC97>Permission <#9b94a6>%perm% <#3DDC97>added successfully."
-permission-removed: "%prefix%<#3DDC97>Permission <#9b94a6>%perm% <#3DDC97>removed successfully."
+empty-list: "%prefix%<#FF4D6D>No elements found."
+group-list-header: "%prefix%<#9b94a6>Groups:"
+group-list-item: "<#FFB800> - <#9b94a6>ID: <#F0F8FF>%id% <#9b94a6>| Name: <#F0F8FF>%name%"
+permissions-list-header: "%prefix%<#9b94a6>Permissions:"
+permissions-list-item: "<#FFB800> - <#F0F8FF>%permission% <#9b94a6>[allowed: %allowed%, weight: %weight%]"

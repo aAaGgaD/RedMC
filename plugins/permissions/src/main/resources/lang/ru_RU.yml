@@ -1,56 +1,11 @@
 prefix: "<#1E90FF>[<#FF1493>Права<#1E90FF>]<#F0F8FF> "
 
-# ───── General Responses ─────
-success: "%prefix%<#3DDC97>Операция выполнена успешно."
-no-permission: "%prefix%<#FF4D6D>У вас нет прав для выполнения этой команды."
-unknown-subcommand: "%prefix%<#FF4D6D>Неизвестная подкоманда: <#9b94a6>%subcommand%"
-missing-arguments: "%prefix%<#FF4D6D>Отсутствуют необходимые аргументы."
-invalid-args: "%prefix%<#FF4D6D>Неверные аргументы. Использование: <#9b94a6>%usage%"
-invalid-boolean: "%prefix%<#FF4D6D>Ожидалось <#9b94a6>true <#FF4D6D>или <#9b94a6>false<#FF4D6D>."
-invalid-int: "%prefix%<#FF4D6D>Ожидалось число, получено: <#9b94a6>%input%"
+success: "%prefix%<#3DDC97>Операция завершена успешно!"
 already-exists: "%prefix%<#FF4D6D>Элемент <#9b94a6>%name% <#FF4D6D>уже существует."
-
-# ───── Reload Messages ─────
-reload-config: "%prefix%<#3DDC97>Конфигурация успешно перезагружена."
-reload-db: "%prefix%<#3DDC97>Структура данных успешно перезагружена."
-reload-all: "%prefix%<#3DDC97>Плагин полностью перезагружен."
-ensure-default-group: "%prefix%<#FFB800>Группа по умолчанию не найдена. Создана новая группа по умолчанию."
-
-# ───── Group Management ─────
-group-not-found: "%prefix%<#FF4D6D>Группа с ID <#9b94a6>%group% <#FF4D6D>не найдена."
-group-added: "%prefix%<#3DDC97>Группа <#9b94a6>%group% <#3DDC97>создана."
-group-removed: "%prefix%<#3DDC97>Группа <#9b94a6>%group% <#3DDC97>удалена."
-group-name-updated: "%prefix%<#3DDC97>Название группы обновлено на <#9b94a6>%name%."
-
-group-list-empty: "%prefix%<#FF4D6D>Группы не найдены."
-group-list-title: "%prefix%<#9b94a6>Группы:"
-group-list-item: "<#FFB800>- <#9b94a6>ID: <#F0F8FF>%id% <#9b94a6>| Название: <#F0F8FF>%name%"
-
-# ───── Group Permissions ─────
-group-has-no-perms: "%prefix%<#9b94a6>Группа <#F0F8FF>%group% <#9b94a6>не имеет разрешений."
-group-perms-list: "%prefix%<#9b94a6>Разрешения группы <#F0F8FF>%group%:"
-group-perms-empty: "%prefix%<#FF4D6D>Группа <#F0F8FF>%group% <#FF4D6D>не имеет разрешений."
-group-perms-title: "%prefix%<#9b94a6>Разрешения группы <#F0F8FF>%group%:"
-group-perms-item: "<#FFB800>%index%<#9b94a6>) <#F0F8FF>%perm% <#9b94a6>[разрешено: %allowed%, вес: %weight%]"
-group-perms-delete-error: "%prefix%<#FF4D6D>Разрешение с индексом <#9b94a6>%index% <#FF4D6D>не существует."
-
-# ───── Player Management ─────
-player-not-found: "%prefix%<#FF4D6D>Игрок <#9b94a6>%player% <#FF4D6D>не найден."
-player-group-added: "%prefix%<#3DDC97>Группа <#9b94a6>%group% <#3DDC97>добавлена игроку <#9b94a6>%player%."
-player-group-removed: "%prefix%<#3DDC97>Группа <#9b94a6>%group% <#3DDC97>удалена у игрока <#9b94a6>%player%."
-player-group-not-assign: "%prefix%<#FF4D6D>Группа <#9b94a6>%group% <#FF4D6D>не назначена игроку."
-player-group-list-empty: "%prefix%<#FF4D6D>Игрок <#F0F8FF>%player% <#FF4D6D>не состоит в группах."
-player-group-list-title: "%prefix%<#9b94a6>Группы игрока <#F0F8FF>%player%:"
-player-group-list-item: "<#FFB800>- <#9b94a6>ID: <#F0F8FF>%id% <#9b94a6>| Название: <#F0F8FF>%name%"
-
-# ───── Player Permissions ─────
-player-perm-added: "%prefix%<#3DDC97>Разрешение <#9b94a6>%perm% <#3DDC97>добавлено игроку <#9b94a6>%player%."
-player-perm-removed: "%prefix%<#3DDC97>Разрешение <#9b94a6>%perm% <#3DDC97>удалено у игрока <#9b94a6>%player%."
-player-perms-is-empty: "%prefix%<#FF4D6D>У игрока <#F0F8FF>%player% <#FF4D6D>нет личных разрешений."
-player-perms-title: "%prefix%<#9b94a6>Разрешения игрока <#F0F8FF>%player%:"
-player-perms-item: "<#FFB800>%index%<#9b94a6>) <#F0F8FF>%perm% <#9b94a6>[разрешено: %allowed%, вес: %weight%]"
-player-perms-delete-error: "%prefix%<#FF4D6D>Разрешение с индексом <#9b94a6>%index% <#FF4D6D>не существует."
-
-# ───── Generic Permissions ─────
-permission-added: "%prefix%<#3DDC97>Разрешение <#9b94a6>%perm% <#3DDC97>успешно добавлено."
-permission-removed: "%prefix%<#3DDC97>Разрешение <#9b94a6>%perm% <#3DDC97>успешно удалено."
+not-found: "%prefix%<#FF4D6D>Элемент <#9b94a6>%name% <#FF4D6D>не найден."
+ensure-default-group: "%prefix%<#FFB800>Группа по умолчанию не найдена. Новая группа по умолчанию была создана."
+empty-list: "%prefix%<#FF4D6D>Пусто."
+group-list-header: "%prefix%<#9b94a6>Группы:"
+group-list-item: "<#FFB800> - <#9b94a6>ИД: <#F0F8FF>%id% <#9b94a6>| Имя: <#F0F8FF>%name%"
+permissions-list-header: "%prefix%<#9b94a6>Права:"
+permissions-list-item: "<#FFB800> - <#F0F8FF>%permission% <#9b94a6>[разрешено: %allowed%, вес: %weight%]"

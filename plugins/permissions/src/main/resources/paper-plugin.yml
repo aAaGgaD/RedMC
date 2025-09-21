@@ -8,8 +8,8 @@ contributors: [AviorAtemo]
 website: https://aviora.red
 prefix: RedMC
 folia-supported: true
-main: com.aviora.redmc.permissions.PermissionsPlugin
-bootstrapper: com.aviora.redmc.permissions.PermissionsBootstrap
+main: red.aviora.redmc.permissions.PermissionsPlugin
+bootstrapper: red.aviora.redmc.permissions.PermissionsBootstrap
 dependencies:
   server:
     RedMC-API:

@@ -1,5 +1,5 @@
-name: RedMC-Test
+name: test
 version: '1.0'
 api-version: '1.21.8'
-main: com.aviora.redmc.test.TestPlugin
+main: red.aviora.redmc.test.TestPlugin
 folia-supported: true
