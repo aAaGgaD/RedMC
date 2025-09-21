@@ -16,6 +16,7 @@ Plugin infrastructure for Minecraft servers in the Vanilla Survival Multiplayer 
   - Player permissions
   - Weights
   - Inheritance
+- Placeholders system
 
 ## Installation
 
@@ -53,7 +54,6 @@ This will start a local Folia server instance with your plugins loaded, allowing
 ## Roadmap
 
 - Backup
-- Placeholders system
 - Vault
   - Prefixes
   - Postfixes
