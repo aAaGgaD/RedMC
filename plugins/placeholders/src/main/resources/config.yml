@@ -1,0 +1,2 @@
+pattern: "##(.*?)##"
+general-registry-weight: 0

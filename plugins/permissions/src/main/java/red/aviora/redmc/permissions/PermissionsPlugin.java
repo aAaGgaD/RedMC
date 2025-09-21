@@ -18,13 +18,13 @@ public class PermissionsPlugin extends JavaPlugin {
 	public void onEnable() {
 		instance = this;
 
-		configManager = new ConfigManager(getInstance(), "config.yml", "groups.yml", "players.yml");
+		configManager = new ConfigManager(this, "config.yml", "groups.yml", "players.yml");
 		localeManager = new LocaleManager(configManager, "en_US", "en_US", "ru_RU");
 
 		permissionManager = new PermissionManager();
 		permissionManager.loadAll();
 
-		getServer().getPluginManager().registerEvents(new PlayerJoinListener(), getInstance());
+		getServer().getPluginManager().registerEvents(new PlayerJoinListener(), this);
 	}
 
 	public static PermissionsPlugin getInstance() {

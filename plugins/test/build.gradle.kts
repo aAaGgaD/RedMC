@@ -25,11 +25,13 @@ val runFolia = runPaper.folia.registerTask {
 	version("1.21.8")
 	dependsOn(
 		project(":plugins:api").tasks.named("reobfJar"),
-		project(":plugins:permissions").tasks.named("jar")
+		project(":plugins:permissions").tasks.named("jar"),
+		project(":plugins:placeholders").tasks.named("jar")
 	)
 	pluginJars(
 		project(":plugins:api").tasks.named("reobfJar"),
-		project(":plugins:permissions").tasks.named("jar")
+		project(":plugins:permissions").tasks.named("jar"),
+		project(":plugins:placeholders").tasks.named("jar"),
 	)
 	downloadPlugins {
 		github("dmulloy2", "ProtocolLib", "5.4.0", "ProtocolLib.jar")

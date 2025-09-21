@@ -1,11 +1,7 @@
 name: RedMC-Permissions
 description: RedMC - Permissions
-version: '1.1'
+version: '1.0'
 api-version: '1.21.8'
-author: RitzAtemo
-authors: [RitzAtemo]
-contributors: [AviorAtemo]
-website: https://aviora.red
 prefix: RedMC
 folia-supported: true
 main: red.aviora.redmc.permissions.PermissionsPlugin
