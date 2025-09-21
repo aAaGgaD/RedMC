@@ -4,7 +4,7 @@ plugins {
 }
 
 group = "com.aviora.redmc"
-version = "1.0"
+version = "1.1"
 
 repositories {
     mavenCentral()
